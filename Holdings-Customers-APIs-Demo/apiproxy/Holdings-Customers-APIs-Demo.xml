@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="Holdings-Customers-APIs-Demo">
+    <Basepaths>/holdings-customers-apis-demo</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1592480902353</CreatedAt>
+    <CreatedBy>dsakthiram@temenos.com</CreatedBy>
+    <Description>Retrieves all Holdings of the Customer</Description>
+    <DisplayName>Holdings-Customers-APIs-Demo</DisplayName>
+    <LastModifiedAt>1592490596685</LastModifiedAt>
+    <LastModifiedBy>dsakthiram@temenos.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ef4edc5706fdb7be2545c793b41dab606ee992a5cc21a86852d5ca09f18cffa48acea6019c9e9327fc991dfe38e9e1a72c31edb46200f479499a00b37363583d</ManifestVersion>
+    <Policies>
+        <Policy>Add-CORS</Policy>
+        <Policy>Get-Target-Credentials</Policy>
+        <Policy>Target-Auth</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
